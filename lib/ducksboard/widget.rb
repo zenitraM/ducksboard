@@ -18,6 +18,14 @@ module Ducksboard
       @data[:value] = val
     end
 
+    def delta
+      @data[:delta]
+    end
+
+    def delta=(delta)
+      @data[:delta] = delta
+    end
+
     def timestamp
       @data[:timestamp]
     end
